@@ -380,6 +380,16 @@ li, input, p, output, select, summary, td, textarea, th, time) {
     font-size: 2.00rem;
   }
 }
+.bg-shape {
+  position: absolute;
+  top: -300px;
+  bottom: -300px;
+  left: -5px;
+  width: 250px;
+  background-color: var(--color-1st);
+  transform: rotate(35deg);
+  z-index: 15;
+}
 .main-container .section-btn {
   display: block;
   padding: 7.5px 30px;
